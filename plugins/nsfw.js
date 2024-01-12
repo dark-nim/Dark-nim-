@@ -11,7 +11,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/ahegao?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/ahegao?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -21,7 +21,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/ass?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/ass?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -31,7 +31,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/bdsm?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/bdsm?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -41,7 +41,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/blowjob?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/blowjob?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -51,7 +51,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/cuckold?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/cuckold?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -61,7 +61,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/cum?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/cum?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -71,7 +71,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/eba?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/eba?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -81,7 +81,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/ero?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/ero?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -91,7 +91,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/femdom?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/femdom?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -101,7 +101,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/foot?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/foot?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -111,7 +111,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/gangbang?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/gangbang?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -121,7 +121,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/gifs?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/gifs?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -131,7 +131,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/glasses?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/glasses?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -141,7 +141,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/hentai?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/hentai?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -151,7 +151,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/jahy?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/jahy?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -161,7 +161,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/manga?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/manga?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -171,7 +171,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/masturbation?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/masturbation?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -181,7 +181,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/milf?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/milf?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -191,7 +191,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/nsfwneko?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/nsfwneko?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -201,7 +201,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/neko2?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/neko2?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -211,7 +211,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/nsfwloli?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/nsfwloli?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -221,7 +221,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/orgy?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/orgy?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -231,7 +231,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/panties?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/panties?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -241,7 +241,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/pussy?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/pussy?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -251,7 +251,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/tentacles?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/tentacles?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -261,7 +261,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/thighs?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/thighs?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -271,7 +271,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/yuri?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/yuri?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -281,7 +281,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/zettai?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/zettai?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -294,7 +294,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/ahegao?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/ahegao?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -305,7 +305,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/ass?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/ass?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -316,7 +316,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/bdsm?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/bdsm?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -327,7 +327,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/blowjob?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/blowjob?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -338,7 +338,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/cuckold?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/cuckold?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -349,7 +349,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/cum?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/cum?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -360,7 +360,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/eba?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/eba?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -371,7 +371,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/ero?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/ero?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -382,7 +382,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/femdom?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/femdom?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -393,7 +393,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/foot?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/foot?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -404,7 +404,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/gangbang?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/gangbang?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -415,7 +415,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/gifs?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/gifs?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -426,7 +426,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/glasses?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/glasses?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -437,7 +437,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/hentai?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/hentai?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -448,7 +448,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/jahy?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/jahy?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -459,7 +459,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/manga?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/manga?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -470,7 +470,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/masturbation?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/masturbation?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -481,7 +481,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/milf?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/milf?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -492,7 +492,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/nsfwneko?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/nsfwneko?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -503,7 +503,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/neko2?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/neko2?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -514,7 +514,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/nsfwloli?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/nsfwloli?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -525,7 +525,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/orgy?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/orgy?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -536,7 +536,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/panties?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/panties?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -547,7 +547,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/pussy?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/pussy?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -558,7 +558,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/tentacles?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/tentacles?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -569,7 +569,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/thighs?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/thighs?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -580,7 +580,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/yuri?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/yuri?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
@@ -591,7 +591,7 @@ inrl({
 	type: 'nsfw',
 	fromMe: true
 }, async (message, match) => { 
-	const url = await getJson(`${config.BASE_URL}api/anime/zettai?apikey=${config.INRL_KEY}`);
+	const url = await getJson(`${config.BASE_URL}api/nsfw/zettai?apikey=${config.INRL_KEY}`);
 	if (!url.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
 	return await message.send(await getBuffer(url.result.url), {}, 'image');
 });
