@@ -45,7 +45,7 @@ inrl({
 		name: "INSTAGRAM DOWNLOADER",
 		values: options.splice(0, 10),
 		withPrefix: true,
-		onlyOnce: true,
+		onlyOnce: false,
 		participates: [message.sender],
 		selectableCount: true
 	}, {}, 'poll');
@@ -85,7 +85,7 @@ inrl({
 		name: "INSTAGRAM STORY DOWNLOADER",
 		values: options.splice(0, 10),
 		withPrefix: true,
-		onlyOnce: true,
+		onlyOnce: false,
 		participates: [message.sender],
 		selectableCount: true
 	}, {}, 'poll');
