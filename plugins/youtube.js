@@ -19,7 +19,7 @@ inrl({
 			name: lang.YT.INFO_SONG,
 			values: result.splice(0,10).map(a=>({name:a.title, id: `song ${a.url}`})),
 			withPrefix: true,
-			onlyOnce: true,
+			onlyOnce: false,
 			participates: [message.sender],
 			selectableCount: true
 		}, {}, 'poll');
@@ -59,7 +59,7 @@ inrl({
 			name: lang.YT.INFO_VIDEO,
 			values: result.splice(0,10).map(a=>({name:a.title, id: `video ${a.url}`})),
 			withPrefix: true,
-			onlyOnce: true,
+			onlyOnce: false,
 			participates: [message.sender],
 			selectableCount: true
 		}, {}, 'poll');
