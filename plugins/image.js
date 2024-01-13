@@ -23,7 +23,7 @@ inrl({
     if(!text) text = match;
     if(!number) number = 1;
     if(number>3 && !message.isCreator) return await message.reply(lang.BASE.NOT_AUTHR);
-    const data = await getJson(config.BASE_URL+'api/gis?text='+text+`&count=${number}&apikey=${config.INRL_KEY}`);
+    const data = await getJson(config.BASE_URL+'api/search/gis?text='+text+`&count=${number}&apikey=${config.INRL_KEY}`);
     const {result} = data;
     if(!data.status) return await message.send(`API key limit exceeded. Get a new API key at ${config.BASE_URL}api/signup. Set var inrl_key: your_api_key`);
     if(!result) return await message.send('_Not Found_');
