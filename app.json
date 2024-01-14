@@ -63,11 +63,41 @@
       "description": "secounds owners of bot",
       "required": true,
       "value": "null"
+    },
+    "AJOIN": {
+      "description": "automatically join to all groups",
+      "required": false,
+      "value": "false"
+    },
+    "SAVE_STATUS": {
+      "description": "save all status message",
+      "required": true,
+      "value": "null"
+    },
+    "STATUS_VIEW": {
+      "description": "status views, values= true,only-view=jid, not-view=jid",
+      "required": false,
+      "value": "false"
+    },
+    "ERROR_MSG": {
+      "description": "send error messages to bot number",
+      "required": false,
+      "value": true
     }
   },
   "addons": [
     {
-      "plan": "heroku-postgresql"
+      "plan": "heroku-postgresql:basic"
     }
-  ]
+  ],
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
+    { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
 }
