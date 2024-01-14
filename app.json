@@ -1,6 +1,6 @@
 {
   "name": "inrl",
-  "description": "inrl-wa-bot-md",
+  "description": "wa-bot-md",
   "keywords": [],
   "stack": "container",
   "env": {
@@ -91,7 +91,10 @@
     }
   ],
   "buildpacks": [
-    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
-    { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
+    {
+      "url": "heroku-community/apt"
+    },{
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
   ]
 }
