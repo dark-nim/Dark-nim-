@@ -234,7 +234,7 @@ inrl({
 		messageTimestamp: message.messageTimestamp
 	};
 	await message.client.chatModify({
-		archive: true,
+		archive: false,
 		lastMessages: [lstMsg]
 	}, message.jid);
 	await message.send('_Unarchived_')
