@@ -17,7 +17,6 @@ inrl({
 }, async (message, match) => {
     match = match || message.reply_message.text;
     if (!match) return await message.send('_*Example:* emorece i am not here to impress you!_');
-    if (match.startsWith(1)) return;
     let options = {
         apikey: config.INRL_KEY,
         text: match
