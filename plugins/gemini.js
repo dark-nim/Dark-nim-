@@ -7,8 +7,8 @@ const {
 
 inrl({
 	pattern: 'gemini ?(.*)',
-	type: "downloader",
-	desc: "download applications from aptoid",
+	type: "eva",
+	desc: "gemini ai",
 }, async (message, match) => {
 	match = match || message.reply_message.text;
 	if (!match) return await message.send("*please give me an query!*");
