@@ -6,40 +6,29 @@ const {
 } = require('../lib')
 
 inrl({
-		pattern: 'ig ?(.*)',
-		desc: 'Insta Profile Search',
-		type: 'stalk',
-	},
-	async (message, match) => {
-		match = match || message.reply_message.text;
-		if (!match)
-			return await message.send('*Give me a instagram username*')
-		const {
-			result
-		} = await getJson(
-			`${config.BASE_URL}api/stalk/ig?name=${encodeURIComponent(match)}&apikey=${config.INRL_KEY}`
-		)
-		if (!result || !result.status) return await message.send(`Please enter a new apikey, as the given apikey limit has been exceeded. Visit ${config.BASE_URL}api/signup for gettig a new apikey. setvar inrl_key: your apikey`);
-		const {
-			fullname,
-			username,
-			profile,
-			posts,
-			following,
-			followers,
-			bio
-		} = result;
-		await message.send(
-			await getBuffer(profile), {
-				caption: '```' +
-					`username : ${username}\nname : ${fullname}\nposts : ${posts}\nfollowers : ${followers}\nfollowning : ${following}\n\nbio : ${bio}` +
-					'```',
-				quoted: message.data
-			},
-			'image'
-		)
-	}
-)
+    pattern: 'ig ?(.*)',
+    desc: 'Insta Profile Search',
+    type: 'stalk',
+},
+async (message, match) => {
+    match = match || message.reply_message.text;
+    if (!match) return await message.send('*Give me an Instagram username*');
+    const { status, result } = await lib.getJson(
+        `${config.BASE_URL}api/stalk/ig?name=${encodeURIComponent(match)}&apikey=${config.INRL_KEY}`
+    );
+
+    if (!result || !status) return await message.send(`Please enter a new API key, as the given API key limit has been exceeded. Visit ${config.BASE_URL}api/signup to get a new API key. setvar inrl_key: your API key`);
+    if (!result.user_info) return await message.send(`User not found`);
+
+    const { full_name, username, profile_pic_url, posts, following, followers, biography, is_private, is_verified } = result.user_info;
+    const captionText = `\`\`\`\nusername : ${username}\nname : ${full_name}\nposts : ${posts}\nfollowers : ${followers}\nfollowing : ${following}\nprivate account: ${is_private}\nverified account: ${is_verified}\n\n\nbio : ${biography}\n\`\`\``;
+
+    await message.send(
+        await getBuffer(profile_pic_url),
+        { caption: captionText, quoted: message.data },
+        'image'
+    );
+});
 
 inrl({
 		pattern: 'ytc ?(.*)',
@@ -79,7 +68,7 @@ inrl({
 )
 inrl({
 		pattern: 'git ?(.*)',
-		desc: 'stalk yt channel',
+		desc: 'stalk git user name',
 		type: 'stalk',
 	},
 	async (message, match) => {
