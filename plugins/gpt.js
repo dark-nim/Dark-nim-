@@ -1,4 +1,4 @@
-const { inrl, GPT, config} = require('../lib/');
+const { inrl, GPT, config,getJson} = require('../lib/');
 inrl({
     pattern: "gpt",
     desc: 'get open ai chatgpt response',
