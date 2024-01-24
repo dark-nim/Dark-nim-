@@ -13,7 +13,7 @@ inrl({
 async (message, match) => {
     match = match || message.reply_message.text;
     if (!match) return await message.send('*Give me an Instagram username*');
-    const { status, result } = await lib.getJson(
+    const { status, result } = await getJson(
         `${config.BASE_URL}api/stalk/ig?name=${encodeURIComponent(match)}&apikey=${config.INRL_KEY}`
     );
 
