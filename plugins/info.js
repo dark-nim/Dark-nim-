@@ -4,7 +4,8 @@ const {
 	getJson
 } = require("../lib/");
 
-inrl({
+inrl(
+	{
 		pattern: "dob",
 		desc: "get birth details",
 		type: "information",
@@ -51,7 +52,8 @@ _*☇ seconds :* ${next.remainingSeconds}_`);
 	}
 );
 
-inrl({
+inrl(
+	{
 		pattern: "country",
 		desc: "get country details",
 		type: "information",
@@ -105,3 +107,27 @@ _*Local Time:* ${times && times.length ? `${times[0].time} (${times[0].zone})` :
 			text: flag
 		}, {}, 'react');
 	});
+
+inrl(
+	{
+		pattern: "checkapi",
+		desc: "check inrlkey",
+		type: "information",
+	},
+	async (message, match) => {
+		const {
+			status,
+			message: res_msg,
+			result
+		} = await getJson(`${config.BASE_URL}api/info/age?dob=${match}&apikey=${config.INRL_KEY}`);
+		if (!status) return await message.send(res_msg);
+		const msg = `_*API KEY:* ${encode(config.INRL_KEY)}_\n_*KEY_TYPE:* unavailable_\n_*MAX REQ LIMIT:* unavailable_\n_*TOTAL REQ:* unavailable_\n_*TODAY REQ:* unavailable_\n_*LIMIT REMAINS:* ${result}_`;
+		return await message.send(msg);
+	});
+
+function encode(str) {
+	for (let i = 01; i < str.split('').length; i++) {
+		if (i % 2 == 0) str = str.replace(str.split('')[i - 1], '_');
+	}
+	return str
+}
