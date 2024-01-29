@@ -20,7 +20,8 @@
 
 #### Deploy To Heroku 
 
-<a href="deploy/heroku"><img title="Dark-nim- Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
+<a href="https://upper-romy-inrl-bot.koyeb.app/deploy/heroku"><img title="Dark-nim- Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
+
 
 
 ---
