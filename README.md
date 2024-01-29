@@ -1,4 +1,4 @@
-## INRL Multi Device Whatsapp Bot.
+## DARK-NIM Multi Device Whatsapp Bot.
 
 ***
 
@@ -14,7 +14,7 @@
 
 
 
-### INRL-MD Deploy Methods
+### DARK-NIM Deploy Methods
 
 -------
 
@@ -24,44 +24,7 @@
 
 
 ---
-#### Deploy To Railway
 
-<a href="https://upper-romy-inrl-bot.koyeb.app/info/deploy/railway"><img title="INRL-MD Deploy Railway" src="https://img.shields.io/badge/DEPLOY RAILWAY-h?color=black&style=for-the-badge&logo=Railway"></a>
-
-
----
-#### Deploy To Koyeb
-
-<a href="https://upper-romy-inrl-bot.koyeb.app/info/deploy/koyeb"><img title="INRL-MD Deploy Koyeb" src="https://img.shields.io/badge/DEPLOY KOYEB-h?color=black&style=for-the-badge&logo=koyeb"></a>
-
----
-#### Deploy To Replit
-
-<a href="https://replit.com/github/inrl-official/INRL-MD"><img title="INRL-MD Deploy Replit" src="https://img.shields.io/badge/DEPLOY REPLIT-h?color=black&style=for-the-badge&logo=Replit"></a>
-
----
- ### Termux Guide
-
- ```bash
-termux-setup-storage
-apt update
-apt upgrade
-pkg update && pkg upgrade
-pkg install python
-pkg install python2
-pkg install bash
-pkg install libwebp
-pkg install git -y
-pkg install nodejs -y 
-pkg install ffmpeg -y 
-pkg install wget
-pkg install imagemagick -y
-git clone Your Forked Github Url
-cd inrl-bot-md
-npm i
-npm start
-```
- 
  ### Support
 
 SUPPORT GROUP
