@@ -1,5 +1,5 @@
 const {
-    inrl,
+    DARKNIM,
     commands,
     send_alive,
     send_menu,
@@ -9,7 +9,7 @@ const {
     Fancy
 } = require('../lib')
 
-inrl({
+DARKNIM({
 	pattern: 'list',
 	desc: lang.LIST.DESC,
 	react: "💯",
@@ -39,7 +39,7 @@ inrl({
 inrl({
     pattern: "alive",
     desc: lang.ALIVE.DESC,
-    react: "🥰",
+    react: "👀",
     type: 'info',
     usage:lang.ALIVE.HELP
 }, async (message, match) => {
