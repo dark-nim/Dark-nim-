@@ -1,10 +1,10 @@
 const {
-    inrl,
+    DARKNIM,
     antiDemote,
     getDemote
 } = require('../lib');
 
-inrl({
+DARKNIM({
     pattern: 'antidemote',
     desc: 'demote actor and re-promote demoted person',
     type: "manage",
