@@ -6,7 +6,7 @@
 
 1. Fork The Repo
     <br>
-<a href="https://github.com/inrl-official/inrl-bot-md/fork"><img title="INRL-MD" src="https://img.shields.io/badge/FORK INRL-MD-h?color=black&style=for-the-badge&logo=stackshare"></a>
+<a href="https://github.com/dark-nim/Dark-nim-/fork"><img title="Dark-nim-" src="https://img.shields.io/badge/FORK Dark-nim--h?color=black&style=for-the-badge&logo=stackshare"></a>
 
 2. Scan Qr
     <br>
@@ -20,7 +20,7 @@
 
 #### Deploy To Heroku 
 
-<a href="https://upper-romy-inrl-bot.koyeb.app/deploy/heroku"><img title="Dark-nim- Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
+<a href="https://upper-romy-Dark-nim--bot.koyeb.app/deploy/heroku"><img title="Dark-nim- Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
 
 
 ---
