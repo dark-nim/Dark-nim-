@@ -1,10 +1,10 @@
 const {
-    inrl,
+    DARKNIM,
     antiPromote,
     getPromote
 } = require('../lib');
 
-inrl({
+DARKNIM({
     pattern: 'antipromote',
     desc: 'demote both promoted persone and promoter',
     type: "manage",
