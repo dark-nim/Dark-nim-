@@ -1,5 +1,5 @@
 const {
-	inrl,
+	DARKNIM,
 	elevenlabs
 } = require('../lib');
 inrl({
